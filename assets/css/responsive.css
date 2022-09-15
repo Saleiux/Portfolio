@@ -1,0 +1,131 @@
+@media screen and (max-width: 760px) {
+    .first-impression {
+        float: none;
+        display: block;
+        width: 700px;
+        margin-left: 20px;
+        text-align: justify;
+        font-size: 10px;
+
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .container1 {
+        float: none;
+        display: block;
+        width: 200px;
+
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .image {
+        width: 190px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .text1 {
+font-size: 22px;
+padding-left: 60px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .overlay {
+margin-top: -100px;
+margin-left: 100px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .container-all-projects-info {
+margin-left:10px;
+
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .container-all-projects-info {
+        width:300px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .project-foto {
+        width: 400px;
+    }
+}
+@media screen and (max-width: 760px) {
+.project_text {
+    font-size: 15px;
+}
+}
+
+@media screen and (max-width: 760px) { 
+    .container_projects_btn1 {
+        width: 100px;
+    }
+}
+
+@media screen and (max-width: 760px) { 
+    .container-project2 {
+        width: 800px;
+    }
+
+}
+
+
+@media screen and (max-width: 760px) { 
+    .text-about {
+       width: 100%;
+       font-size: 18px;
+    }
+
+}
+
+@media screen and (max-width: 760px) { 
+    .quote {
+       width: 330px;
+       margin-left: 45px;
+    }
+
+}
+
+@media screen and (max-width: 760px) { 
+    .container-about{
+       padding-top: 50px;
+       align-items: center;
+       width: 760px;
+
+    }
+
+}
+
+@media screen and (max-width: 760px) { 
+    .mainskills{
+        width: 770px;
+    }
+}
+
+@media screen and (max-width: 760px) { 
+    span{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 760px) { 
+    .maincontacts{
+        width: 100%;
+    }
+}
+
+@media screen and (max-width: 760px) { 
+    .contacts{
+width: 90px;
+font-size: 14px;
+    }
+}
