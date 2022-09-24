@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+
+<meta chrset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link rel="stylesheet" href="assets/css/header.css">
+<link rel="stylesheet" href="assets/css/style.css">
+<link rel="stylesheet" href="assets/css/footer.css">
+<link rel="stylesheet" href="assets/css/responsive.css">
+<link rel="icon" type="image/x-icon" href="assets/img/favicon.png">
+
+
+
+<title>Samuele Viale - Home</title>
+
+    </head>
+
+
+    <body>
+        <header>
+             <!-- Navbar mobile-->
+
+             <div class="topnav" id="myTopnav">
+                <a href="index.html" class="active">Home</a>
+                <a href="portfolio.html">Portfolio</a>
+                <a href="about.html">About</a>
+                <a href="contact.html">Contact</a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+                  <i class="fa fa-bars"></i>
+                </a>
+              </div>
+
+           <!-- Navbar -->
+           <div class="navbar" id="navbar">
+            <a class="active" href="index.html">Home</a>
+            <a class="active" href="portfolio.html">Portfolio</a>
+            <a class="active" href="about.html">About</a>
+            <a class="active" href="contact.html">Contact</a>
+          </div>
+          
+        </header>
+
+        <!--Home-->
+        
+<div id="home" class="menu2">
+   
+
+            <div class="first-impression">
+                <div class="text1">
+                    <h1 class="hello">Hello, I am<em class="my-name"> SAMUELE VIALE</em> </h1>
+                    <br>
+                    <h1 class="hello">I am a full-stack web developer </h1>    
+            </div>
+            <div class="button1">
+                <button class="my-work-button" type="button"> <a class="guarda-lavori" href="portfolio.html">Look at my projects</a></button>
+                </div>
+                </div>
+
+<div class="container1">
+    <img class="image" src="assets/img/fotoprofilo.jpg" alt="Avatar">
+    <div class="overlay">
+        <div class="text2"> <a class="link-chi-sono" href="about.html">About</a></div>
+            </div>
+    </div>
+
+</div>
+    
+
+
+
+
+
+
+     
+        
+      <!--Footer-->
+      <footer>
+        <div class="container_footer" style="margin-top: 140px;">
+            <span class="footer_text">Copyright © 2022 Samuele Viale</span>
+            <div class="container-social">
+                <ul>
+                    <a rel="noreferrer noopener" href="https://www.linkedin.com/in/samuele-viale-3783601a3/">
+                        <li>
+                            <img src="assets/img/social-icons/linkedin.svg" alt="icons">
+                        </li>
+                    </a>
+                    <a rel="noreferrer noopener" href="https://www.instagram.com/saleiux/">
+                        <li>
+                            <img src="assets/img/social-icons/instagram.svg" alt="icons">
+                        </li>
+                    </a>
+                    <a rel="noreferrer noopener" href="https://github.com/Saleiux">
+                        <li>
+                            <img src="assets/img/social-icons/github.svg" alt="icons">
+                        </li>
+                    </a>
+                </ul>
+            </div>
+        </div>
+        </footer>
+
+            </div>
+
+            <!-- Javascript-->
+            <script>
+            window.onscroll = function() {myFunction()};
+                
+                var navbar = document.getElementById("navbar");
+                var sticky = navbar.offsetTop;
+                
+                function myFunction() {
+                  if (window.pageYOffset >= sticky) {
+                    navbar.classList.add("sticky")
+                  } else {
+                    navbar.classList.remove("sticky");
+                  }
+                }
+                </script>
+
+        
+    
+
+    </body>
+
+</html>
