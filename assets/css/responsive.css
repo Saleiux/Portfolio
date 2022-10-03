@@ -1,0 +1,261 @@
+/* Header */
+
+@media screen and (max-width: 760px) {
+    .topnav {
+        display: block;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .topnav a {
+        float: left;
+        display: block;
+        color: #03989E;
+        text-align: center;
+        padding: 14px 16px;
+        text-decoration: none;
+        font-size: 17px;
+      }
+    }
+
+    @media screen and (max-width: 760px) {
+        .topnav a:hover {
+            box-shadow: 0 12px 16px 0 #03989E, 0 17px 50px 0 rgba(0,0,0,0.19);
+            color: #03989E;
+          }
+        }
+
+        @media screen and (max-width: 760px) {
+            .navbar {
+              width: 700px;
+             display: flex;
+             flex-direction: column;
+             align-items: center;
+             justify-content: center;
+            }
+          }
+          
+          @media (max-width: 760px) {
+              .navbar    { display: none; }
+              nav select { display: inline-block; }
+            }
+
+      /*footer*/
+
+        @media screen and (max-width: 760px) {
+            .container_footer {
+                width: 470px;
+                align-items: center;
+            }
+        }
+
+
+
+
+
+
+/*Home*/
+
+
+@media screen and (max-width: 760px) {
+    .menu2 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        width: 400px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .first-impression {
+        width: 400px;
+        display: flex;
+        flex-direction: column;
+        margin-left: 110px;
+    }
+}
+
+
+@media screen and (max-width: 760px) {
+    .hello {
+font-size: 16px;
+width: 300px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .guarda-lavori {
+font-size: 18px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .container1 {
+        width: 325px;
+    }
+}
+
+
+
+/* Portfolio */
+
+
+@media screen and (max-width: 760px) { 
+    .container-project1,
+    .container-project2{
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        margin-left: 0px;
+    }
+}
+
+@media screen and (max-width: 760px) { 
+    h3{
+        margin-top: 10px;
+    }
+}
+
+
+@media screen and (max-width: 760px) {
+    .container-all-projects-info {
+margin-left:10px;
+
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .container-all-projects-info {
+        width:300px;
+        font-size: 15px;
+    }
+}
+
+@media screen and (max-width: 760px) {
+    .project-foto {
+        width: 300px;
+    }
+}
+@media screen and (max-width: 760px) {
+.project_text {
+    font-size: 15px;
+}
+}
+
+@media screen and (max-width: 760px) { 
+    .container_projects_btn1 {
+        width: 100px;
+    }
+}
+
+
+
+/* About */
+
+    @media screen and (max-width: 760px) { 
+        article {
+           width: 400px;
+        }
+    
+    }
+
+    @media screen and (max-width: 760px) { 
+        .about {
+           padding: 0px;
+        }
+    
+    }
+
+
+
+@media screen and (max-width: 760px) { 
+    .text-about {
+       width: 100%;
+       font-size: 16px;
+       margin-right: 0px;
+       margin-left: 0px;
+
+    }
+
+}
+
+@media screen and (max-width: 760px) { 
+    .quote {
+       width: 450px;
+    }
+
+}
+
+@media screen and (max-width: 760px) { 
+    .quote-image{
+       width: 300px;
+    }
+    }
+
+@media screen and (max-width: 760px) { 
+    .container-about{
+        display: flex;
+        flex-direction: column;
+        width: 450px;
+        margin-left: 0px;
+       
+    }
+
+}
+
+@media screen and (max-width: 760px) { 
+    .mainskills {
+width: 400px;
+    }
+}
+
+@media screen and (max-width: 760px) { 
+.container_all_skills{
+    width: 20px;
+    margin: 0px;
+}
+}
+
+@media screen and (max-width: 760px) { 
+    .skill-title {
+        width: 435px;
+    }
+}
+
+@media screen and (max-width: 760px) { 
+    .soft-skills {
+        width: 80px;
+}
+}
+
+@media screen and (max-width: 760px) { 
+.span-about {
+font-size: 10px;
+}
+}
+
+
+/* contact */
+
+@media screen and (max-width: 760px) { 
+    span{
+        font-size: 16px;
+    }
+}
+
+@media screen and (max-width: 760px) { 
+    .maincontacts{
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+@media screen and (max-width: 760px) { 
+    .contacts{
+width: 90px;
+font-size: 14px;
+    }
+}
