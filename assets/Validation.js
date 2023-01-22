@@ -38,7 +38,7 @@ if (email.value == ""){
 if (message.value == ""){
     errorBox.InnerHTML = alertDiv + alertBtn + "<strong>Wait!</strong> You forgot to write me something" + </div>
     message.focus();
-    message.style.border = ""3px solid #990033""
+    message.style.border = "3px solid #990033"
     return false;
 }
 
