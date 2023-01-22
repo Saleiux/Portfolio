@@ -1,13 +1,12 @@
-function validate() {
-   let email = document.getElementById("email"); 
-   let message = document.getElementById("message");
-   let errorBox = document.getElementById("errorMessage");
-   let alertDiv = `<div class="alert alert-danger alert-dismissible" role="alert">`;
-   let alertBtn = `<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hiddens="true">&times;</span></button>;
-}
+
 
 function sendEmail (){
-Email.send({
+  let email = document.getElementById("email"); 
+  let message = document.getElementById("message"); 
+  let errorBox = document.getElementById("errorMessage");
+  let alertDiv = `<div class="alert alert-danger alert-dismissible" role="alert">`;
+  let alertBtn = `<button type="button" class="close" data-dismiss="alert" aria-label="Close"><span aria-hiddens="true">&times;</span></button>;
+  Email.send({
     Host : "smtp.gmail.com",
     Username : "saleiux99@gmail.com",
     Password : "Ktm34_99",
